@@ -65,12 +65,18 @@ body {
   border-radius: 10px;
   font-weight: bold;
 }
-/* INFORMATIOn */
+/* INFORMATION */
 .information {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 15%;
+  padding: 100px 15%;
+}
+
+.information h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 .information ul {
@@ -80,21 +86,37 @@ body {
   gap: 50px;
 }
 
-.information img {
+.information p {
+  text-align: center;
   height: 200px;
   width: 200px;
 }
+
+.information img {
+  border: solid #3882f6;
+  border-width: 5px;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
+
 /* QUOTE */
 .quote {
   display: flex;
   flex-direction: column;
   align-items: end;
-  padding: 0 15%;
+  padding: 100px 15%;
+  background-color: #e5e7eb;
 }
 .quote .message {
   font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
 }
 .quote .author {
+  font-size: 36px;
+  color: #1f2937;
   font-weight: bold;
 }
 /* CALL TO ACTION */
@@ -102,20 +124,35 @@ body {
   padding: 0 15%;
 }
 .callaction .content {
+  display: flex;
+  align-items: center;
   margin: 100px 0;
   padding: 20px 100px;
   border: solid;
   border-style: solid;
-  border-color: black;
-  display: flex;
-  align-items: center;
+  border-color: #3882f6;
+  border-radius: 10px;
+  background-color: #3882f6;
 }
+
 .callaction .message {
   flex: 2 1 0;
+  color: #e5e7eb;
+}
+
+.callaction button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border-color: #f9faf8;
+  font-weight: bold;
 }
 /* Footer */
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
