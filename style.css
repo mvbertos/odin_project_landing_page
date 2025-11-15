@@ -1,7 +1,6 @@
 /* HEADER */
 .header {
-  border-style: solid;
-  border-color: black;
+
   display: flex;
   align-items: center;
   padding: 0 15%;
@@ -12,18 +11,13 @@
   flex: 2 1 0%;
 }
 
-.header .logo_area img {
+.header img {
   height: 100px;
   width: 100px;
 }
-
-.header .link {
-  flex: 1 1 0%;
-}
 /* HERO */
 .hero {
-  border-style: solid;
-  border-color: black;
+
   display: flex;
   align-items: center;
   padding: 0 15%;
@@ -31,8 +25,7 @@
 }
 /* INFORMATIOn */
 .information {
-  border-style: solid;
-  border-color: black;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,4 +42,41 @@
 .information img {
   height: 200px;
   width: 200px;
+}
+/* QUOTE */
+.quote {
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 0 15%;
+}
+.quote .message {
+  font-style: italic;
+}
+.quote .author {
+  font-weight: bold;
+}
+/* CALL TO ACTION */
+.callaction {
+
+  padding: 0 15%;
+}
+.callaction .content {
+  margin: 100px 0;
+  padding: 20px 100px;
+  border: solid;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  align-items: center;
+}
+.callaction .message {
+  flex: 2 1 0;
+}
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
