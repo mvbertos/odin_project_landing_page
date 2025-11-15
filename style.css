@@ -1,9 +1,13 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /* HEADER */
 .header {
-
+  background-color: #1f2937;
   display: flex;
   align-items: center;
-  padding: 0 15%;
+  padding: 10px 15%;
   gap: 50px;
 }
 
@@ -15,17 +19,54 @@
   height: 100px;
   width: 100px;
 }
+
+.header a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
 /* HERO */
 .hero {
-
+  background-color: #1f2937;
   display: flex;
-  align-items: center;
-  padding: 0 15%;
+  align-items: start;
+  padding: 100px 15%;
   gap: 50px;
+}
+
+.hero .message {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: start;
+}
+
+.hero h1 {
+  size: 48px;
+  color: #f9faf8;
+  width: 900;
+}
+
+.hero p {
+  color: #e5e7eb;
+}
+
+.hero img {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.hero button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: bold;
 }
 /* INFORMATIOn */
 .information {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +86,6 @@
 }
 /* QUOTE */
 .quote {
-
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -59,7 +99,6 @@
 }
 /* CALL TO ACTION */
 .callaction {
-
   padding: 0 15%;
 }
 .callaction .content {
