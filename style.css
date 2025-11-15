@@ -1,3 +1,4 @@
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -24,6 +25,7 @@ body {
   color: #e5e7eb;
   text-decoration: none;
 }
+
 /* HERO */
 .hero {
   background-color: #1f2937;
@@ -41,13 +43,14 @@ body {
 }
 
 .hero h1 {
-  size: 48px;
+  font-size: 48px;
   color: #f9faf8;
   width: 900;
 }
 
 .hero p {
   color: #e5e7eb;
+  font-size: 18px;
 }
 
 .hero img {
@@ -88,6 +91,7 @@ body {
 
 .information p {
   text-align: center;
+  font-size: 18px;
   height: 200px;
   width: 200px;
 }
@@ -121,7 +125,7 @@ body {
 }
 /* CALL TO ACTION */
 .callaction {
-  padding: 0 15%;
+  padding: 100px 15%;
 }
 .callaction .content {
   display: flex;
@@ -138,6 +142,7 @@ body {
 .callaction .message {
   flex: 2 1 0;
   color: #e5e7eb;
+  font-size: 18px;
 }
 
 .callaction button {
@@ -147,9 +152,12 @@ body {
   border-radius: 10px;
   border-color: #f9faf8;
   font-weight: bold;
+  font-size: 18px;
 }
+
 /* Footer */
 footer {
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
