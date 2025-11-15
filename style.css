@@ -20,3 +20,12 @@
 .header .link {
   flex: 1 1 0%;
 }
+/* HERO */
+.hero {
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 15%;
+  gap: 50px;
+}
